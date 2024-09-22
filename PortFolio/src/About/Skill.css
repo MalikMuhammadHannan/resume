@@ -1,0 +1,41 @@
+.xyslider {
+  width: 15rem;
+}
+.xyskill_main {
+  background-color: aliceblue;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.xyskill_h3 {
+  margin: 1rem;
+}
+.xyskill_gap {
+}
+.xymain_h3 {
+  width: 25rem;
+}
+.xyskill {
+  align-items: center;
+  width: 30rem;
+  background-color: aliceblue;
+  margin: auto;
+  letter-spacing: 0.2rem;
+}
+@media (max-width: 750px) {
+  .xyslider {
+    width: 15rem;
+    margin: auto;
+  }
+  .xyskill_h3 {
+    flex-direction: column;
+
+    width: 8rem;
+  }
+  .xyskill {
+    width: 15rem;
+  }
+  .xymain_h3 {
+    width: 15rem;
+    text-align: center;
+  }
+}

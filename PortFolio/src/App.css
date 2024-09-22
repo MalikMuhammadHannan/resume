@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Carrois Gothic", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+  width: .01rem;
+  border-radius: 15px;
+  
+}
+
+body::-webkit-scrollbar-thumb{
+  
+  background: gray;
+}

@@ -1,0 +1,81 @@
+.xyflex {
+  display: flex;
+}
+.xymenu {
+  display: none;
+}
+.xyheader {
+  justify-content: space-between;
+  padding: 1.3rem;
+  background-color: aliceblue;
+}
+.xyheader_ul {
+  width: 25rem;
+  justify-content: space-around;
+}
+.xyactive {
+  color: azure;
+}
+.xyh_li {
+  color: rgb(223, 8, 8);
+}
+a {
+  text-decoration: none;
+}
+.xyheader_ul li {
+  list-style: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.xyheader_li {
+  border: 1px solid black;
+
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  transition: all 0.5s ease;
+}
+.xyheader_li:hover {
+  color: green;
+}
+
+@media (max-width: 700px) {
+  .xyheader {
+    position: relative;
+    padding: 0.5rem;
+  }
+  .xymenu {
+    display: block;
+  }
+  .xyheader_ul {
+    display: none;
+  }
+  .yresponsive {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    margin-top: 2.5rem;
+
+    left: 0;
+    padding: 1rem;
+    background-color: aliceblue;
+    width: 100%;
+    
+    animation: jani 1s  1 ;
+    
+  }
+  .xyheader_li{
+    animation: jani 1s  1 ;
+
+  }
+  @keyframes jani {
+    from{
+      width: 1rem;
+    }
+    to{
+      width: 100vw;
+    }
+    
+  }
+}

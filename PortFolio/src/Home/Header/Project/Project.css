@@ -1,0 +1,43 @@
+.xycard_img {
+  width: 10rem;
+  margin: auto;
+  margin: 1rem;
+}
+.xyproject {
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.xycard {
+  width: 25rem;
+  height: 17rem;
+  margin: 1rem;
+  line-height: 1.8rem;
+
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px grey;
+}
+.xyProject_h3 {
+  text-align: center;
+}
+.xyProject_main {
+  background-color: aliceblue;
+}
+.xyproject_h2 {
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.xycard_btn {
+  color: aliceblue;
+  border: 1px solid rgb(224, 157, 10);
+
+  border-radius: 7px;
+  width: 8rem;
+  margin: auto;
+}
+.xycard_para {
+  width: 15rem;
+  margin: auto;
+}

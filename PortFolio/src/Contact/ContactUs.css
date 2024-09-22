@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap");
+.main_contact {
+  padding: 5rem 0rem;
+}
+* {
+  margin: 0;
+  font-family: "Carrois Gothic", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+.email {
+  flex-direction: column;
+  display: flex;
+  background-color: aliceblue;
+}
+.email_h2 {
+  text-align: center;
+  padding: 0.5rem;
+}
+.email_input {
+  width: 18rem;
+  resize: none;
+  margin: 0.5rem auto;
+  border: 1px solid gray;
+  border-radius: 10px 0px;
+  border: none;
+  padding: 0.5rem;
+  box-shadow: 0px 1px 5px gray;
+  outline: none;
+}
+::placeholder {
+  color: rgb(92, 41, 71);
+  padding: 0.5rem;
+}
+.email_btn {
+  box-shadow: 0px 1px 5px gray;
+  background-color: transparent;
+  width: 5rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+
+  border: none;
+  border-radius: 8px;
+}

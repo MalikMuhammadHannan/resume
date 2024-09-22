@@ -1,0 +1,131 @@
+.xyservice {
+  justify-content: space-around;
+  background-color: rgb(9, 4, 75);
+  color: white;
+  line-height: 2rem;
+  gap: 1rem;
+  padding-top: 3rem;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  /* height: 100vh; */
+}
+.xyservice_p {
+  background-color: rgb(9, 4, 75);
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1.5rem 0;
+
+}
+.xyservice_icon {
+  margin-top: 1rem;
+}
+.xyservice_three {
+  margin-bottom: 1rem;
+}
+a {
+  color: aliceblue;
+}
+xy .xyservice_h4 {
+  font-weight: 1%;
+  margin: 0.5rem 0rem;
+  word-wrap: break-word;
+}
+.xyP_input {
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  outline: none;
+}
+.xyservice_btn {
+  background-color: rgb(116, 92, 253);
+  color: white;
+  border: none;
+  letter-spacing: 0.3rem;
+  padding: 0.6rem 1.3rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .xyservice_h4 {
+    font-size: 0.9rem;
+  }
+  .xyservice_h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 800px) {
+  .xyservice_h2 {
+    font-size: 1.7rem;
+  }
+  .xyservice {
+    gap: 1rem;
+    line-height: 2rem;
+  }
+  .xyservice_h4 {
+    font-weight: 1%;
+    margin: 0.5rem 0rem;
+  }
+  .xyall {
+    padding: 3rem;
+    line-height: 2rem;
+    text-align: start;
+    align-items: center;
+  }
+}
+@media (max-width: 650px) {
+  .xyall {
+    padding: 1.3rem;
+    margin: 1rem;
+  }
+  .xyservice_h2 {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+
+    letter-spacing: 0.1rem;
+  }
+  .xyservice_h4 {
+    font-weight: 200;
+    width: 10rem;
+  }
+  .xyP_input {
+    width: 9rem;
+    height: 2rem;
+  }
+  .xyservice_btn {
+    width: 6rem;
+    letter-spacing: 0;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media (max-width: 475px) {
+  .xyall {
+    padding: 0;
+    width: 7rem;
+    line-height: 1.1rem;
+    padding-top: 0.8rem;
+  }
+  .xyservice_h2 {
+    font-size: 1.3rem;
+    padding: 0.2rem;
+
+    letter-spacing: 0.1rem;
+  }
+  .xyservice_h4 {
+    font-weight: 100;
+    width: 100%;
+  }
+  .xyP_input {
+    width: 8rem;
+    height: 2rem;
+  }
+  .xyservice_btn {
+    letter-spacing: 0;
+    font-size: 0.7rem;
+  }
+  ::placeholder {
+    width: 4rem;
+
+    font-size: 0.7rem;
+  }
+}
